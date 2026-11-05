@@ -1,5 +1,5 @@
 {
-  "total": 200,
+  "total": 201,
   "agents": [
     {
       "id": "churn-predictor",
@@ -903,6 +903,14 @@
       "name": "Interview Bot",
       "role": "Interview Screening Agent",
       "path": "agents/voice/interview-bot/SOUL.md",
+      "deploy": "https://crewclaw.com/create-agent"
+    },
+    {
+      "id": "voice-assistant",
+      "category": "voice",
+      "name": "Vox",
+      "role": "Voice Calling and SMS Agent",
+      "path": "agents/voice/voice-assistant/SOUL.md",
       "deploy": "https://crewclaw.com/create-agent"
     },
     {
